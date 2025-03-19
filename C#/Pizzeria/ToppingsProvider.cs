@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using static Pizzeria.GenericTopping;
 using static Pizzeria.ToppingsProvider.Topping;
@@ -18,6 +19,4 @@ namespace Pizzeria;
 
         public static string[] AvailableToppings => Enum.GetNames(typeof(Topping));
     }
-
-
 
